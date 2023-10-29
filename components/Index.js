@@ -7,6 +7,9 @@ export default function Index() {
     <div>
       <Navbar/>
       <h1>hero</h1>
+      <div>
+        
+      </div>
     </div>
   )
 }

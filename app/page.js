@@ -6,6 +6,7 @@ import SearchBar from '@/components/SearchBar'
 import CustomFilter from '../components/customFilter';
 import { carData } from '@/utlis';
 import CarCard from '@/components/CarCard';
+import Todo from '../components/Todo';
 
 export default  function Home() {
   const carData = [
@@ -144,6 +145,7 @@ export default  function Home() {
 
 
      </div>
+     <div> <Todo/></div>
     </main>
   )
 }

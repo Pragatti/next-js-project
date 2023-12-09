@@ -14,11 +14,11 @@ export default function SearchBar() {
       item.toLowerCase().includes(inputValue.toLowerCase())
     );
     setFilteredData(filterData);
-  };
+   };
   const handleSelect = (value) => {
     // setManufacturer(value);
     handleSearch(value, "select");
-  };
+   };
   return (
     <div>
       <div className=" ">
